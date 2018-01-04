@@ -10,8 +10,8 @@ title: Wasiq Mohammad
 email: wfmohamm@uwaterloo.ca
 description: > # this means to ignore newlines until "baseurl:"
   This is my personal website showcasing what I'm all about.
-baseurl: "/wasiqm.github.io" # the subpath of your site, e.g. /blog
-url: "http://wasiqm.github.io" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://localhost:4000" # the base hostname & protocol for your site
 linkedin_username: wasiqm
 github_username:  wasiqm
 
