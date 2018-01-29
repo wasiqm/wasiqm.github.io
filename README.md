@@ -1,4 +1,3 @@
-## Wasiq Mohammad
 
 ```
 Tea enthusiast.
