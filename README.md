@@ -1,8 +1,4 @@
 
 ```
-Tea enthusiast.
-
-Interested in data, design and doing cool things with code. 
-
-Studying systems design engineering at the University of Waterloo.
+My personal website, made with Jekyll and my own HTML/CSS.
 ```
