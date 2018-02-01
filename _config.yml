@@ -1,23 +1,67 @@
-# Welcome to Jekyll!
 #
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+###################################
+# Site wide configuration
+####################################
+#
+title: Wasiq
+email: wfmohamm@edu.uwaterloo.ca
+description: Wasiq's portfolio website.
+url: wasiqm.com # the base hostname & protocol for your site
+keywords: ["Developer", "Wasiq", "Waterloo"]
 
-# Site settings
-title: Wasiq Mohammad
-email: wfmohamm@uwaterloo.ca
-description: > # this means to ignore newlines until "baseurl:"
-  This is my personal website showcasing what I'm all about.
-baseurl: "/wasiqm.github.io" # the subpath of your site, e.g. /blog
-url: "http://wasiqm.github.io" # the base hostname & protocol for your site
-linkedin_username: wasiqm
-github_username:  wasiqm
+#
+###################################
+# Jekyll configuration
+####################################
+#
+timezone:          Europe/Paris
+markdown:          kramdown
+highlighter:       rouge
+excerpt_separator: <!--more-->
+permalink:         /articles/:year-:month/:title
 
-# Build settings
-sass:
-  sass_dir: _sass
-include: ['_pages']
 kramdown:
-  input: GFM
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+#
+###################################
+# Site Owner configuration
+####################################
+#
+owner:
+  name: Wasiq Mohammad
+  avatar: wasiq-logo.png
+  job: "2A Systems Design Engineering"
+  bio: "Tea enthusiast. Interested in data, design and doing cool things with code. Studying systems design engineering at the University of Waterloo."
+  email: wfmohamm@edu.uwaterloo.ca
+  disqus-shortname: #username
+  twitter: #username
+  facebook: #username
+  google:
+    plus: #username
+    analytics: UA-62251910-2
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: wasiqm #username
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: wasiqm #username
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  codepen: #username
+  telegram: #username

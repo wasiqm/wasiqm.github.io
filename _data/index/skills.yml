@@ -1,0 +1,6 @@
+# skills section data
+
+label: Ability
+id : cs
+aspects:  Work Ethic, JavaScript, HTML/CSS, ASP.NET, SQL, Python
+percentage: 100, 60, 70, 80, 70, 75

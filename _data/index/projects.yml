@@ -1,0 +1,11 @@
+- name: StudyBot (FraserHacks)
+  descr: "For the FraserHacks hackathon, wrote a Kik chatbot that takes pictures of notes to develop relevant quiz questions. Built using Python and Microsoft APIs (JSON) and deployed with ngrok."
+  image: pong.png
+  github: https://github.com/wasiqm/study-bot-for-kik
+
+
+- name: Monopoly Deal Card Game
+  descr: "Developed game application using Python with thorough documentation. Built using a full GUI and object-oriented programming. Implemented the Software Development Life Cycle to design and test the game."
+  image: pong.png
+  github: https://github.com/wasiqm/monopoly-deal-reimagined
+
