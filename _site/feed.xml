@@ -2,32 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wasiq</title>
-    <description>Wasiq's portfolio website.</description>
+    <description>This is my personal website showcasing what I'm all about.
+</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 01 Feb 2018 09:54:01 +0100</pubDate>
-    <lastBuildDate>Thu, 01 Feb 2018 09:54:01 +0100</lastBuildDate>
+    <pubDate>Tue, 06 Feb 2018 07:49:33 +0100</pubDate>
+    <lastBuildDate>Tue, 06 Feb 2018 07:49:33 +0100</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
-        <title>Code snippet sample</title>
-        <description>&lt;p&gt;Testing out how code snippets are displayed with jekyll.&lt;/p&gt;
+        <title>Monopoly Deal Reimagined</title>
+        <description>&lt;p&gt;I really like the Monopoly Deal card game, and I think it’s more enjoyable than the original board game in fact. That’s why &lt;a href=&quot;https://github.com/ryancoulsonca&quot;&gt;ryancoulsonca&lt;/a&gt; and I decided to create a fun variation of the game, not just digitiszing the card game but making it about world conquest instead of just collecting properties.&lt;/p&gt;
 
-&lt;!--more--&gt;
+&lt;p&gt;We designed and developeed the game using obkect-oriented programming in python, using the graphics.py library for the GUI. We closely followed the Software Developement Life Cycle for this program’s creation and testing.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;The rules of the game are very similar to the original. At the start though, you choose a country to represent (because this version of the game is about world domination). All of the action cards are based off of the ones in the original game, with the names changed to fit the world domination theme. The objective of the game is to get either 3 full sets of property cards like the original game, or to be the first one to reach 50 million dollars in your bank (this secondary goal was not in the original game and was added by us because it allows more strategy in the game).&lt;/p&gt;
 
+&lt;p&gt;Screenshots of the game are included below and the code is available on my github.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/img/das_kapital.png&quot; alt=&quot;The title screen&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/img/country_select.png&quot; alt=&quot;The country select screen&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/img/gameplay1.png&quot; alt=&quot;How the gameplay looks like&quot; /&gt;&lt;/p&gt;
 </description>
-        <pubDate>Thu, 18 Jan 2018 16:07:19 +0100</pubDate>
-        <link>http://localhost:4000/articles/2018-01/welcome-to-jekyll</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/2018-01/welcome-to-jekyll</guid>
+        <pubDate>Sun, 12 Feb 2017 19:07:19 +0100</pubDate>
+        <link>http://localhost:4000/articles/2017-02/monopoly-deal-reimagined</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/2017-02/monopoly-deal-reimagined</guid>
         
         
-        <category>tutorial</category>
+        <category>project</category>
         
       </item>
     
