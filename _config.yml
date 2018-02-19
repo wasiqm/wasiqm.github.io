@@ -38,7 +38,10 @@ owner:
   name: Wasiq Mohammad
   avatar: wasiq-logo.png
   job: "2A Systems Design Engineering"
-  bio: "Tea enthusiast. Interested in data, design and doing cool things with code. Studying systems design engineering at the University of Waterloo."
+  bio: |
+        Tea enthusiast.
+        Interested in data, design and doing cool things with code.
+        Studying systems design engineering at the University of Waterloo.
   email: wfmohamm@edu.uwaterloo.ca
   disqus-shortname: #username
   twitter: #username

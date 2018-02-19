@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 06 Feb 2018 07:49:33 +0100</pubDate>
-    <lastBuildDate>Tue, 06 Feb 2018 07:49:33 +0100</lastBuildDate>
+    <pubDate>Mon, 19 Feb 2018 09:31:48 +0100</pubDate>
+    <lastBuildDate>Mon, 19 Feb 2018 09:31:48 +0100</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -29,6 +29,42 @@
         <pubDate>Sun, 12 Feb 2017 19:07:19 +0100</pubDate>
         <link>http://localhost:4000/articles/2017-02/monopoly-deal-reimagined</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2017-02/monopoly-deal-reimagined</guid>
+        
+        
+        <category>project</category>
+        
+      </item>
+    
+      <item>
+        <title>Product Designing for Older Adults</title>
+        <description>&lt;p&gt;For SYDE 161 Introduction
+to Design, we were asked to design a technology with a fairly broad problem space: solving a problem faced by older adults. Another constraint given was that the solution cannot be a soley software-based one. After a fair bit of reesearch, our group narrowed our problen space to mobility for older adults, and then narrowed even further to older adults getting up the stairs.&lt;/p&gt;
+
+&lt;p&gt;From our final report:
+“Through the analysis of the problem space through personas, research, and the identification of user requirements, we began to design a solution that reduces the number of stair-related falls by creating a device that could grip the hand railing with more force than the user can apply typically.”&lt;/p&gt;
+
+&lt;p&gt;Although the design wasn’t for an app or any sort of software (due to the constraints), the design strategies used are very transferable for things like UX design. Creating personas for the potential users was particularly helpful in narrowing our target audience and designing the most relevent solution. We created 3 personas: one for a primary user, a secondary user, and an anti-persona (the opposite of the kind of person we’re desgining for).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/img/persona2.png&quot; alt=&quot;Persona for a primary user&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/img/persona1.png&quot; alt=&quot;Persona for a secondary user&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/img/persona3.png&quot; alt=&quot;Anti-persona&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Another tool we used was a quality function deployment (QFD), including the creation of a house of quality (I added colour to make it a bit more visually appealing). This was used to identify what the ideal product characteristics would be for our targeted users by analyzing the voice of the customer and the what the competitors were doing in the space.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/img/qfd.png&quot; alt=&quot;House of Quality for our QFD&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After implementing and testing low-fidelity and medium-fidelity protoypes, we ended up with a metal high-fidelity prototype we called “the Helping Handle”. Our design process was driven by a cycle of research, brainstorming, iterating, and testing. We borrowed ideas from existing solutions like the use of one-way rollers from the Helper Bird device, and combined these ideas with our own to create an optimal design. For example, one of our primary improvements upon existing solutions includes a clamp that can grip any stair railing instead of just one.&lt;/p&gt;
+
+&lt;p&gt;Our final design demonstrates testable functionality for all of our user needs: to increase stability without slowing down th￼e user, have an ergonomic shape for the grip, be adjustable and versatile to fit a variety of railings, and do so while being portable and non-stigmatizing.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/img/hfp1.jpg&quot; alt=&quot;Our final prototype with past prototypes on the sides&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/img/hfp2.png&quot; alt=&quot;Close up of the railing-clamp from our high-fidelity prototype&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Moving forward, we would like to focus on a more efficient use of energy put into our system by replacing the hand clamp with a lever. We also need to build outer casings for all our parts. Ideally, the final product would be smaller, and built out of a lighter material that can still maintain strength. Besides these next steps, I think we did a great job implementing a solution for this problem and we managed to learn a lot along the way.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 28 Dec 2016 18:34:04 +0100</pubDate>
+        <link>http://localhost:4000/articles/2016-12/design-project</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/2016-12/design-project</guid>
         
         
         <category>project</category>
