@@ -10,7 +10,7 @@ For a hackathon (UofTHacks 2017) idea, me and my team decided to create an appli
 
 I had been tasked by my team to think of a design mock-up for how the web part of the app would look. I created these using Sketch, but it was my first time using it and there was the time constraint of the hackathon looming over us so it is not as polished as it could be. The design I came up with for various pages of the application are shown below.
 
-![Home page with item feed]({{ "/img/hackathon1.png" | absolute_url }})
-![User sign-up]({{ "/img/hackathon1.png" | absolute_url }})
-![Item request page]({{ "/img/hackathon1.png" | absolute_url }})
-![Item details]({{ "/img/hackathon1.png" | absolute_url }})
+![Home page with item feed]({{ "/img/hackathon1.PNG" | absolute_url }})
+![User sign-up]({{ "/img/hackathon2.PNG" | absolute_url }})
+![Item request page]({{ "/img/hackathon3.PNG" | absolute_url }})
+![Item details]({{ "/img/hackathon4.PNG" | absolute_url }})

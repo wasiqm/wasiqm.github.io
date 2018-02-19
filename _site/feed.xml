@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 19 Feb 2018 09:31:48 +0100</pubDate>
-    <lastBuildDate>Mon, 19 Feb 2018 09:31:48 +0100</lastBuildDate>
+    <pubDate>Mon, 19 Feb 2018 10:08:26 +0100</pubDate>
+    <lastBuildDate>Mon, 19 Feb 2018 10:08:26 +0100</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -20,8 +20,6 @@
 
 &lt;p&gt;Screenshots of the game are included below and the code is available on my github.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/img/das_kapital.png&quot; alt=&quot;The title screen&quot; /&gt;&lt;/p&gt;
-
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/img/country_select.png&quot; alt=&quot;The country select screen&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/img/gameplay1.png&quot; alt=&quot;How the gameplay looks like&quot; /&gt;&lt;/p&gt;
@@ -29,6 +27,26 @@
         <pubDate>Sun, 12 Feb 2017 19:07:19 +0100</pubDate>
         <link>http://localhost:4000/articles/2017-02/monopoly-deal-reimagined</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2017-02/monopoly-deal-reimagined</guid>
+        
+        
+        <category>project</category>
+        
+      </item>
+    
+      <item>
+        <title>Ship-It Global Design Mock-Up</title>
+        <description>&lt;p&gt;For a hackathon (UofTHacks 2017) idea, me and my team decided to create an application that tackled the problem of the shipping of certain items being unavailable in your country. The idea of this app, which would be both web-based and available on mobile, was that people could ship whatever they want to buy to user of the app who is willing to receive the item and then ship it manually to the country of the person who wanted to order the item in the first place, but with a small fee to make the trouble worth it. You could have a whole feed of items people want that you can help them ship by being the middle man and making a small profit.&lt;/p&gt;
+
+&lt;p&gt;I had been tasked by my team to think of a design mock-up for how the web part of the app would look. I created these using Sketch, but it was my first time using it and there was the time constraint of the hackathon looming over us so it is not as polished as it could be. The design I came up with for various pages of the application are shown below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/img/hackathon1.PNG&quot; alt=&quot;Home page with item feed&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/img/hackathon2.PNG&quot; alt=&quot;User sign-up&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/img/hackathon3.PNG&quot; alt=&quot;Item request page&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/img/hackathon4.PNG&quot; alt=&quot;Item details&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 01 Feb 2017 19:07:19 +0100</pubDate>
+        <link>http://localhost:4000/articles/2017-02/Ship-It-Global-Design-Mockup</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/2017-02/Ship-It-Global-Design-Mockup</guid>
         
         
         <category>project</category>
