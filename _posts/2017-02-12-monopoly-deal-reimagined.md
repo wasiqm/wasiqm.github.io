@@ -14,8 +14,6 @@ The rules of the game are very similar to the original. At the start though, you
 
 Screenshots of the game are included below and the code is available on my github.
 
-![The title screen]({{ "/img/das_kapital.png" | absolute_url }})
-
 ![The country select screen]({{ "/img/country_select.png" | absolute_url }})
 
 ![How the gameplay looks like]({{ "/img/gameplay1.png" | absolute_url }})
