@@ -1,5 +1,5 @@
 - name: Kiva Kaggle Project
-  descr: "Analyzed Kiva's microfinancing datasets with pandas and created insightful visualizations using the plotly python library"
+  descr: "Analyzed Kiva's microfinancing datasets with pandas and created insightful visualizations using the plotly python library."
   image: pong.png
   kaggle: https://www.kaggle.com/wasiqm/kiva-poverty-analysis
 
