@@ -2,21 +2,14 @@
 layout: default
 ---
 <div class="row">
-    <div class="col l7">
-        <div class="row">
-            <div class="col">
-                {% include sections/about.html %}        
-            </div>
-        </div>
-        
-        <div class="row">
-            <div class="col">
-                {% include sections/projects.html %}
-            </div>
-        </div>
-    </div>
 
-    <div class="col l4 offset-l1">
+    <div class="col l7 offset-l1">
+        <div class="row">
+            <div class="col">
+                {% include sections/about.html %}
+            </div>
+        </div>
+
         <div class="row">
             {% include sections/skills.html %}    
         </div>
@@ -27,6 +20,13 @@ layout: default
             {% include sections/education.html %}    
         </div>
     </div>
-    
+
+    <div class="col l8 offset-l1">
+        <div class="row">
+            <div class="col">
+                {% include sections/projects.html %}
+            </div>
+        </div>
+    </div>
 
 </div>

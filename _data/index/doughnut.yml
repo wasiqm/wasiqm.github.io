@@ -1,0 +1,11 @@
+# doughnut chart data
+
+datasets: [{
+    data: [8, 6]
+}],
+
+// These labels appear in the legend and in the tooltips when hovering different arcs
+labels: [
+    'Terms completed (4 study terms, 4 co-ops)',
+    'Terms left to fo (4 study terms, 2 co-ops)
+]

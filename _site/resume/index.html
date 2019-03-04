@@ -57,7 +57,7 @@
   <img src="http://localhost:4000/img/wasiq-logo.png" alt="" class="avatar">
   
   <a href="http://localhost:4000/" class="author_name">Wasiq Mohammad</a>
-  <span class="author_job">2A Systems Design Engineering</span>
+  <span class="author_job">3rd year Systems Design Engineering student</span>
   <span class="author_bio mbm">Tea enthusiast.
 Interested in data, design and doing cool things with code.
 Studying systems design engineering at the University of Waterloo.
@@ -72,8 +72,10 @@ Studying systems design engineering at the University of Waterloo.
       <li class="nav-item">
         <a href="http://localhost:4000/resume/">Resume</a>
         
+          <span>/</span>
+        
       </li>
-       
+         
     </ul>
   </nav>
   <script type="text/javascript">
@@ -125,18 +127,92 @@ Studying systems design engineering at the University of Waterloo.
     <div class="col s12 m9">
       <div class="post-listing">
         <div class="row">
-    <div class="col l7">
+
+    <div class="col l7 offset-l1">
         <div class="row">
             <div class="col">
                 <h1><span data-i18n="skills.my_skills">About</span></h1>
 
 <div>
-    A highly-motivated student seeking a dev, design or data internship for summer 2018 :)
+    <p>
+        A highly-motivated student seeking a data science or data engineering internship for Fall 2019.
+    </p>
+
+    <p>
+        Here are some data visualizations about me that say more about me than just words can:
+    </p>
 </div>
-        
             </div>
         </div>
-        
+
+        <div class="row">
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
+
+
+
+<h2><span data-i18n="skills.my_skills">Skills</span></h2>
+<canvas id="cs" height="300" width="300"></canvas>    
+<script>
+    var ctx = document.getElementById("cs");
+    var data = {
+    labels: "Work Ethic, Bash, JavaScript, Tableau, Python, SQL".split(","),
+    datasets: [{
+        label: "Ability",
+        backgroundColor: "rgba(179,181,198,0.2)",
+        borderColor: "#3385FF",
+        pointBackgroundColor: "#3385FF",
+        pointBorderColor: "#fff",
+        pointHoverBackgroundColor: "#3385FF",
+        pointHoverBorderColor: "#3385FF",
+        data: [100, 75, 80, 75, 85, 80]
+        }]
+    };
+    var myRadarChart = new Chart(ctx, {
+    type: 'radar',
+    data: data,
+    options: {
+        scale: {
+            responsive: true,
+            ticks: {min: 0, max: 100},
+            lineArc: false,
+            pointLabels: {fontSize: 14},
+        },
+        scaleFontSize: 0,
+        legend: {display: false},
+    }
+    });
+</script>    
+        </div>
+        <div class="row">
+            <h1><span data-i18n="skills.my_skills">Bio</span></h1>
+
+<div class="archive">
+  <div class="timeline" id="timeline">
+    
+          <div class="archive-title"><div class="archive-year"><strong>May 2018 - Aug 2018</strong> Data Engineer (intern) @ <a href="https://www.scotiabank.com/">Scotiabank</a></div></div>
+    
+          <div class="archive-title"><div class="archive-year"><strong>Sep 2017 - Dec 2017</strong> Full Stack Developer (intern) @ <a href="http://www.firmwater.com/">Firmwater Inc</a></div></div>
+    
+          <div class="archive-title"><div class="archive-year"><strong>Jan 2017 - Apr 2017</strong> Solutions Architect (intern) @ <a href="http://www.primaltech.com/">Primal Technologies</a></div></div>
+    
+  </div>
+</div>    
+        </div>
+        <div class="row">
+            <div class="navy-line"></div>
+<h1><span data-i18n="skills.my_skills">Education</span></h1>
+
+<div class="archive">
+  <div class="timeline" id="timeline">
+    
+          <div class="archive-title bio"><div class="archive-year"><strong>2016 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i></strong> <a href="http://www.uwaterloo.ca/">University of Waterloo</a></div></div>
+    
+  </div>
+</div>    
+        </div>
+    </div>
+
+    <div class="col l8 offset-l1">
         <div class="row">
             <div class="col">
                 <h1><span data-i18n="skills.my_skills">Projects</span></h1>
@@ -144,8 +220,19 @@ Studying systems design engineering at the University of Waterloo.
 
     <div class="row">
             <div class="col">
-                <h2 style="margin: 0">StudyBot (FraserHacks)</h2>
-                <p style="margin: 0">For the FraserHacks hackathon, wrote a Kik chatbot that takes pictures of notes to develop relevant quiz questions. Built using Python and Microsoft APIs (JSON) and deployed with ngrok.</p>
+                <h2 style="margin: 0">Kiva Kaggle Project</h2>
+                <p style="margin: 0">Analyzed Kiva's microfinancing datasets with pandas and created insightful visualizations using the plotly python library.</p>
+
+                
+                
+
+            </div>
+    </div>
+
+    <div class="row">
+            <div class="col">
+                <h2 style="margin: 0">StudyBot</h2>
+                <p style="margin: 0">Wrote a Kik chatbot that takes pictures of notes to develop relevant quiz questions. Built using Python and Microsoft APIs (JSON) and deployed with ngrok.</p>
 
                 
                 <a href="https://github.com/wasiqm/study-bot-for-kik "><i class="fa fa-fw fa-github"></i>GitHub</a>
@@ -172,73 +259,9 @@ Studying systems design engineering at the University of Waterloo.
         </div>
     </div>
 
-    <div class="col l4 offset-l1">
-        <div class="row">
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
-<h1><span data-i18n="skills.my_skills">Skills</span></h1>
-<canvas id="cs" height="500" width="500"></canvas>    
-<script>
-    var ctx = document.getElementById("cs");
-    var data = {
-    labels: "Work Ethic, JavaScript, HTML/CSS, ASP.NET, SQL, Python".split(","),
-    datasets: [{
-        label: "Ability",
-        backgroundColor: "rgba(179,181,198,0.2)",
-        borderColor: "#3385FF",
-        pointBackgroundColor: "#3385FF",
-        pointBorderColor: "#fff",
-        pointHoverBackgroundColor: "#3385FF",
-        pointHoverBorderColor: "#3385FF",
-        data: [100, 60, 70, 80, 70, 75]
-        }]
-    };
-    var myRadarChart = new Chart(ctx, {
-    type: 'radar',
-    data: data,
-    options: {
-        scale: {
-            responsive: true,
-            ticks: {min: 0, max: 100},
-            lineArc: false,
-            pointLabels: {fontSize: 14},
-        },
-        scaleFontSize: 0,
-        legend: {display: false},
-    }
-    });
-</script>    
-        </div>
-        <div class="row">
-            <h1><span data-i18n="skills.my_skills">Bio</span></h1>
-
-<div class="archive">
-  <div class="timeline" id="timeline">
-    
-          <div class="archive-title"><div class="archive-year"><strong>Sep 2017 - Dec 2017</strong> Full Stack Developer @ <a href="http://www.firmwater.com/">Firmwater Inc</a></div></div>
-    
-          <div class="archive-title"><div class="archive-year"><strong>Jan 2014 - Apr 2017</strong> Solutions Architect @ <a href="http://www.primaltech.com/">Primal Technologies</a></div></div>
-    
-  </div>
-</div>    
-        </div>
-        <div class="row">
-            <div class="navy-line"></div>
-<h1><span data-i18n="skills.my_skills">Education</span></h1>
-
-<div class="archive">
-  <div class="timeline" id="timeline">
-    
-          <div class="archive-title bio"><div class="archive-year"><strong>2016 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i></strong> <a href="http://www.uwaterloo.ca/">University of Waterloo</a></div></div>
-    
-  </div>
-</div>    
-        </div>
-    </div>
-    
-
 </div>
         <footer>
-  &copy; 2018 Wasiq Mohammad. Powered by <a href="http://jekyllrb.com/">Jekyll made with  <i class="fa fa-heart heart-icon"></i>
+  &copy; 2019 Wasiq Mohammad. Powered by <a href="http://jekyllrb.com/">Jekyll made with  <i class="fa fa-heart heart-icon"></i>
 </footer>
 
 </footer>
