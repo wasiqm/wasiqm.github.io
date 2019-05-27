@@ -12,11 +12,9 @@ to Design, we were asked to design a technology with a fairly broad problem spac
 From our final report:
 "Through the analysis of the problem space through personas, research, and the identification of user requirements, we began to design a solution that reduces the number of stair-related falls by creating a device that could grip the hand railing with more force than the user can apply typically."
 
-Although the design wasn't for an app or any sort of software (due to the constraints), the design strategies used are very transferable for things like UX design. Creating personas for the potential users was particularly helpful in narrowing our target audience and designing the most relevent solution. We created 3 personas: one for a primary user, a secondary user, and an anti-persona (the opposite of the kind of person we're desgining for).
+Although the design wasn't for an app or any sort of software (due to the constraints), the design strategies used are very transferable for things like UX design. Creating personas for the potential users was particularly helpful in narrowing our target audience and designing the most relevent solution. We created 3 personas: one for a primary user (shown below), a secondary user, and an anti-persona (the opposite of the kind of person we're desgining for).
 
 ![Persona for a primary user]({{ "/img/persona2.png" | absolute_url }})
-![Persona for a secondary user]({{ "/img/persona1.png" | absolute_url }})
-![Anti-persona]({{ "/img/persona3.png" | absolute_url }})
 
 Another tool we used was a quality function deployment (QFD), including the creation of a house of quality (I added colour to make it a bit more visually appealing). This was used to identify what the ideal product characteristics would be for our targeted users by analyzing the voice of the customer and the what the competitors were doing in the space.
 
