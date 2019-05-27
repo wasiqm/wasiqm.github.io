@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Using K-Means Clustering for Renewable Enregy
+title:  Using K-Means Clustering for Renewable Energy
 date:   2019-02-15 18:07:19
 categories: [project]
 comments: false
