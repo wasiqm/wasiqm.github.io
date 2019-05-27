@@ -12,8 +12,6 @@ We designed and developeed the game using obkect-oriented programming in python,
 
 The rules of the game are very similar to the original. At the start though, you choose a country to represent (because this version of the game is about world domination). All of the action cards are based off of the ones in the original game, with the names changed to fit the world domination theme. The objective of the game is to get either 3 full sets of property cards like the original game, or to be the first one to reach 50 million dollars in your bank (this secondary goal was not in the original game and was added by us because it allows more strategy in the game).
 
-Screenshots of the game are included below and the code is available on my github.
-
-![The country select screen]({{ "/img/country_select.png" | absolute_url }})
+A screenshot of the game is included below and the code is available on my github.
 
 ![How the gameplay looks like]({{ "/img/gameplay1.png" | absolute_url }})
