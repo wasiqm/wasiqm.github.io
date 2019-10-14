@@ -13,9 +13,6 @@ Me and my team members created EnergyBuddy for ConUHacks, a hackathon in Montrea
 
 ![The results pop-up with all relevant factors after the city is selected]({{ "/img/energybuddy2.png" | absolute_url }})
 Figure 2: The results pop-up with all relevant factors after the city is selected
- 
-![A breakdown of the structure of the application.]({{ "/img/energybuddy3.png" | absolute_url }})
-Figure 3: A breakdown of the structure of the application.
 
 The objective was for the user, who could be an environment-conscious individual installing an energy source on their property, a business, or even a policy-maker, to have a clear understanding of which renewable energy source they should be using for their city and why. 
 
