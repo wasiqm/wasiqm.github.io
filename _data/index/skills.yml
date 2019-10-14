@@ -2,5 +2,5 @@
 
 label: Ability
 id : cs
-aspects:  Work Ethic, Bash, JavaScript, Tableau, Python, SQL
-percentage: 100, 75, 80, 75, 85, 80
+aspects:  Work Ethic, JavaScript, Git, Java, Python, SQL
+percentage: 100, 75, 80, 60, 95, 80
