@@ -14,8 +14,6 @@ From our final report:
 
 Although the design wasn't for an app or any sort of software (due to the constraints), the design strategies used are very transferable for things like UX design. Creating personas for the potential users was particularly helpful in narrowing our target audience and designing the most relevent solution. We created 3 personas: one for a primary user (shown below), a secondary user, and an anti-persona (the opposite of the kind of person we're desgining for).
 
-![Persona for a primary user]({{ "/img/persona2.png" | absolute_url }})
-
 Another tool we used was a quality function deployment (QFD), including the creation of a house of quality (I added colour to make it a bit more visually appealing). This was used to identify what the ideal product characteristics would be for our targeted users by analyzing the voice of the customer and the what the competitors were doing in the space.
 
 ![House of Quality for our QFD]({{ "/img/qfd.png" | absolute_url }})
@@ -24,7 +22,6 @@ After implementing and testing low-fidelity and medium-fidelity protoypes, we en
 
 Our final design demonstrates testable functionality for all of our user needs: to increase stability without slowing down th￼e user, have an ergonomic shape for the grip, be adjustable and versatile to fit a variety of railings, and do so while being portable and non-stigmatizing.
 
-![Our final prototype with past prototypes on the sides]({{ "/img/hfp1.jpg" | absolute_url }})
 ![Close up of the railing-clamp from our high-fidelity prototype]({{ "/img/hfp2.png" | absolute_url }})
 
 Moving forward, we would like to focus on a more efficient use of energy put into our system by replacing the hand clamp with a lever. We also need to build outer casings for all our parts. Ideally, the final product would be smaller, and built out of a lighter material that can still maintain strength. Besides these next steps, I think we did a great job implementing a solution for this problem and we managed to learn a lot along the way.
