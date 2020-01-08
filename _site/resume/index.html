@@ -58,8 +58,7 @@
   
   <a href="http://localhost:4000/" class="author_name">Wasiq Mohammad</a>
   <span class="author_job">3rd year Systems Design Engineering student</span>
-  <span class="author_bio mbm">Tea enthusiast.
-Interested in data, design and doing cool things with code.
+  <span class="author_bio mbm">Interested in data, machine learning, and doing cool things with code.
 Studying systems design engineering at the University of Waterloo.
 </span>
   <nav class="nav">
@@ -135,13 +134,10 @@ Studying systems design engineering at the University of Waterloo.
 
 <div>
     <p>
-        A highly-motivated student seeking a data science or data engineering internship for Fall 2019.
-    </p>
-
-    <p>
-        Here are some data visualizations about me that say more about me than just words can:
+        A highly-motivated student seeking a data science or data engineering internship for Summer 2020.
     </p>
 </div>
+
             </div>
         </div>
 
@@ -151,11 +147,11 @@ Studying systems design engineering at the University of Waterloo.
 
 
 <h2><span data-i18n="skills.my_skills">Skills</span></h2>
-<canvas id="cs" height="300" width="300"></canvas>    
+<canvas id="cs"></canvas>    
 <script>
     var ctx = document.getElementById("cs");
     var data = {
-    labels: "Work Ethic, Bash, JavaScript, Tableau, Python, SQL".split(","),
+    labels: "Work Ethic, JavaScript, Git, Java, Python, SQL".split(","),
     datasets: [{
         label: "Ability",
         backgroundColor: "rgba(179,181,198,0.2)",
@@ -164,9 +160,10 @@ Studying systems design engineering at the University of Waterloo.
         pointBorderColor: "#fff",
         pointHoverBackgroundColor: "#3385FF",
         pointHoverBorderColor: "#3385FF",
-        data: [100, 75, 80, 75, 85, 80]
+        data: [100, 75, 80, 60, 95, 80]
         }]
     };
+    
     var myRadarChart = new Chart(ctx, {
     type: 'radar',
     data: data,
@@ -181,6 +178,13 @@ Studying systems design engineering at the University of Waterloo.
         legend: {display: false},
     }
     });
+
+    var myDoughnutChart = new Chart(ctx, {
+    type: 'doughnut',
+    data: data,
+    options: options
+    });
+
 </script>    
         </div>
         <div class="row">
@@ -189,11 +193,13 @@ Studying systems design engineering at the University of Waterloo.
 <div class="archive">
   <div class="timeline" id="timeline">
     
-          <div class="archive-title"><div class="archive-year"><strong>May 2018 - Aug 2018</strong> Data Engineer (intern) @ <a href="https://www.scotiabank.com/">Scotiabank</a></div></div>
+          <div class="archive-title"><div class="archive-year"><strong>Sep 2019 - Dec 2019</strong> Data Science Intern @ <a href="http://www.asc-csa.gc.ca/eng/">Canadian Space Agency</a></div></div>
     
-          <div class="archive-title"><div class="archive-year"><strong>Sep 2017 - Dec 2017</strong> Full Stack Developer (intern) @ <a href="http://www.firmwater.com/">Firmwater Inc</a></div></div>
+          <div class="archive-title"><div class="archive-year"><strong>Jan 2019 - Apr 2019</strong> Data Analytics Intern @ <a href="https://www.airmiles.ca/">LoyaltyOne (Air Miles)</a></div></div>
     
-          <div class="archive-title"><div class="archive-year"><strong>Jan 2017 - Apr 2017</strong> Solutions Architect (intern) @ <a href="http://www.primaltech.com/">Primal Technologies</a></div></div>
+          <div class="archive-title"><div class="archive-year"><strong>May 2018 - Aug 2018</strong> Data Engineering Intern @ <a href="https://www.scotiabank.com/">Scotiabank</a></div></div>
+    
+          <div class="archive-title"><div class="archive-year"><strong>Sep 2017 - Dec 2017</strong> Full Stack Development Intern @ <a href="http://www.firmwater.com/">Firmwater Inc</a></div></div>
     
   </div>
 </div>    
@@ -261,7 +267,7 @@ Studying systems design engineering at the University of Waterloo.
 
 </div>
         <footer>
-  &copy; 2019 Wasiq Mohammad. Powered by <a href="http://jekyllrb.com/">Jekyll made with  <i class="fa fa-heart heart-icon"></i>
+  &copy; 2020 Wasiq Mohammad. Powered by <a href="http://jekyllrb.com/">Jekyll made with  <i class="fa fa-heart heart-icon"></i>
 </footer>
 
 </footer>
