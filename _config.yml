@@ -4,12 +4,12 @@
 ####################################
 #
 title: Wasiq
-email: wfmohamm@edu.uwaterloo.ca
+email: wfmohamm@uwaterloo.ca
 description: > # this means to ignore newlines until "baseurl:"
-  This is my personal website showcasing what I'm all about.
+  My personal website.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://wasiqm.github.io" # the base hostname & protocol for your site
-keywords: ["Developer", "Wasiq", "Waterloo"]
+keywords: ["Data Science", "Wasiq", "Waterloo", "Systems Design Engineering", "Software Engineer", "Wasiq Mohammad", "Facebook", "Canadian Space Agency"]
 
 #
 ###################################
@@ -37,11 +37,12 @@ kramdown:
 owner:
   name: Wasiq Mohammad
   avatar: wasiq-logo.png
-  job: "3rd year Systems Design Engineering student"
+  job: "4th year Systems Design Engineering student"
   bio: |
         Interested in data, machine learning, and doing cool things with code.
-        Studying systems design engineering at the University of Waterloo.
-  email: wfmohamm@edu.uwaterloo.ca
+        Previously @ Facebook and the Canadian Space Agency. 
+        Graduating from UW soon and looking for my next adventure.
+  email: wfmohamm@uwaterloo.ca
   disqus-shortname: #username
   twitter: #username
   facebook: #username
@@ -65,7 +66,6 @@ owner:
   dribbble: #username
   youtube: #username
   soundcloud: #username
-  weibo: #username
   flickr: #username
   codepen: #username
   telegram: #username

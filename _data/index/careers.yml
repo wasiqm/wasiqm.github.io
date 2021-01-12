@@ -1,15 +1,20 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 
+- name: Facebook
+  link: https://about.fb.com/
+  date: Jun 2020 - Sep 2020
+  job: Data Science Intern
+
 - name: Canadian Space Agency
   link: http://www.asc-csa.gc.ca/eng/
   date: Sep 2019 - Dec 2019
-  job: Data Science Intern
+  job: Software Engineering Intern
 
 - name: LoyaltyOne (Air Miles)
   link: https://www.airmiles.ca/
   date: Jan 2019 - Apr 2019
-  job: Data Analytics Intern
+  job: Data Science Intern
 
 - name: Scotiabank
   link: https://www.scotiabank.com/

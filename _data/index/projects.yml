@@ -1,16 +1,28 @@
+- name: Overdose Map - John Hopkins University MedHacks Google Challenge 1st Place Winner
+  descr: "My team developed an application to present aggregated paramedic data using Flask, Python, and Firebase to allow physicians to improve opioid response"
+  github: https://github.com/neilbrub/mh-kwann
+
+
+- name: KidsAbility Scheduling Application - UW Blueprint
+  descr: "As a part of a team on UW Blueprint, I helped build out the scheduling app for the KidsAbility Centre for Child Development. In particular, I built the redesigned landing page and enhanced search from 4 max clinicians to 100 using ReactJS."
+  github: https://github.com/uwblueprint/kidsability
+
+
+- name: MapWorks - McGill McHacks Martello challenge 1st place winner
+  descr: "Developed a Flask web application to compute the best mobile internet speed in a location based on distance to radio towers using open data on the towers, Martello internet speed data and scikit-learn."
+  github: https://github.com/wasiqm/MapWorks
+
+
 - name: Kiva Kaggle Project
   descr: "Analyzed Kiva's microfinancing datasets with pandas and created insightful visualizations using the plotly python library."
-  image: pong.png
-  kaggle: https://www.kaggle.com/wasiqm/kiva-poverty-analysis
+  github: https://www.kaggle.com/wasiqm/kiva-poverty-analysis
 
 
 - name: StudyBot
   descr: "Wrote a Kik chatbot that takes pictures of notes to develop relevant quiz questions. Built using Python and Microsoft APIs (JSON) and deployed with ngrok."
-  image: pong.png
   github: https://github.com/wasiqm/study-bot-for-kik
 
 
 - name: Monopoly Deal Card Game
   descr: "Developed game application using Python with thorough documentation. Built using a full GUI and object-oriented programming. Implemented the Software Development Life Cycle to design and test the game."
-  image: pong.png
   github: https://github.com/wasiqm/monopoly-deal-reimagined
